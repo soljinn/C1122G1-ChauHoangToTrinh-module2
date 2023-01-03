@@ -1,3 +1,5 @@
+package ss1_introduction_Java.bai_tap;
+
 import java.util.Scanner;
 
 public class NumberToString {

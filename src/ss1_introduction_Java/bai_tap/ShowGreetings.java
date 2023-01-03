@@ -1,3 +1,5 @@
+package ss1_introduction_Java.bai_tap;
+
 import java.util.Scanner;
 
 public class ShowGreetings {
@@ -6,6 +8,6 @@ public class ShowGreetings {
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
 
-        System.out.println("Hello: " + name);
+        System.out.println("Hello " + name);
     }
 }
