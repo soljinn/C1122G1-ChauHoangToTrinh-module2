@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77a3eb09-07ea-4c0a-b489-592a13d96c8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss2_loop/bai_tap/DisplayMenuGeometry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss2_loop/bai_tap/ShowFirst20Primes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss1_introduction_Java/MoneyConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1_introduction_Java/bai_tap/MoneyConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss1_introduction_Java/NumberToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1_introduction_Java/bai_tap/NumberToString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss1_introduction_Java/ShowGreetings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1_introduction_Java/bai_tap/ShowGreetings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +80,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ShowPrimesLessThan100" />
-        <item itemvalue="Application.ShowFirst20Primes" />
         <item itemvalue="Application.DisplayMenuGeometry" />
+        <item itemvalue="Application.ShowFirst20Primes" />
       </list>
     </recent_temporary>
   </component>
