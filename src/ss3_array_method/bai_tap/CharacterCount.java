@@ -10,11 +10,11 @@ public class CharacterCount {
         System.out.println("Enter the desired character");
         char character = scanner.nextLine().charAt(0);
         int count = 0;
-        for (int i = 0; i < string.length(); i++){
-            if (string.charAt(i) == character){
+        for (int i = 0; i < string.length(); i++) {
+            if (string.charAt(i) == character) {
                 count++;
             }
         }
-        System.out.println("The number of occurrences of " +character + " is " +count );
+        System.out.println("The number of occurrences of " + character + " is " + count);
     }
 }
