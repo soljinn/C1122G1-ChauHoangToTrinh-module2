@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77a3eb09-07ea-4c0a-b489-592a13d96c8a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ss3_array_method/bai_tap/AddElemenToArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3_array_method/bai_tap/AddElementToArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3_array_method/bai_tap/CharacterCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_array_method/bai_tap/CharacterCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3_array_method/bai_tap/DeleteElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_array_method/bai_tap/DeleteElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3_array_method/bai_tap/FindTheLargestNumberInTheMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_array_method/bai_tap/FindTheLargestNumberInTheMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3_array_method/bai_tap/Join2Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_array_method/bai_tap/Join2Arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3_array_method/bai_tap/TheSmallestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_array_method/bai_tap/TheSmallestElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3_array_method/bai_tap/TotalCol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_array_method/bai_tap/TotalCol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss4_class_object/bai_tap/fan/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4_class_object/bai_tap/fan/Fan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss4_class_object/bai_tap/fan/MainFan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4_class_object/bai_tap/fan/MainFan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss4_class_object/bai_tap/quadratic_equation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4_class_object/bai_tap/quadratic_equation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss4_class_object/bai_tap/quadratic_equation/QuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4_class_object/bai_tap/quadratic_equation/QuadraticEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss4_class_object/bai_tap/stop_watch/MainStopWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4_class_object/bai_tap/stop_watch/MainStopWatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss4_class_object/bai_tap/stop_watch/StopWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4_class_object/bai_tap/stop_watch/StopWatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +51,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ShowPrimesLessThan100">
+  <component name="RunManager" selected="Application.MainFan">
     <configuration name="DisplayMenuGeometry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss2_loop.bai_tap.DisplayMenuGeometry" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ss2_loop.bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainFan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss4.fan.MainFan" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss4.fan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainFan" />
         <item itemvalue="Application.ShowPrimesLessThan100" />
         <item itemvalue="Application.DisplayMenuGeometry" />
         <item itemvalue="Application.ShowFirst20Primes" />
