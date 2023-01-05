@@ -11,7 +11,7 @@ public class MainCylinder {
         String color = scanner.nextLine();
         System.out.println("Height: ");
         double height = Double.parseDouble(scanner.nextLine());
-        Cylinder cylinder = new Cylinder(radius,color,height);
+        Cylinder cylinder = new Cylinder(radius, color, height);
         System.out.println(cylinder);
     }
 }
