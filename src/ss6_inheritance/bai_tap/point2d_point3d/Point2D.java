@@ -1,10 +1,12 @@
 package ss6_inheritance.bai_tap.point2d_point3d;
 
 public class Point2D {
-    private float x=0.0f;
-    private float y = 0.0f;
+    private float x;
+    private float y;
 
     public Point2D() {
+        this.x = 0.0f;
+        this.y = 0.0f;
     }
 
     public Point2D(float x, float y) {
@@ -28,12 +30,13 @@ public class Point2D {
         this.y = y;
     }
 
-    public void setXY(float x, float y){
-        this.x=x;
-        this.y=y;
+    public void setXY(float x, float y) {
+        this.x = x;
+        this.y = y;
     }
-    public  float [] getXY(){
-        return new float[] {getX(),getY()};
+
+    public float[] getXY() {
+        return new float[]{getX(), getY()};
     }
 
     @Override

@@ -6,7 +6,6 @@ public class MainPoint3D {
     public static void main(String[] args) {
 
         Point3D point3D = new Point3D();
-        System.out.println(point3D);
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("x= ");
@@ -29,6 +28,7 @@ public class MainPoint3D {
         point3D2.setY(y2);
         point3D2.setZ(z2);
 
+        System.out.println(point3D);
         System.out.println(point3D1);
         System.out.println(point3D2);
     }
