@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77a3eb09-07ea-4c0a-b489-592a13d96c8a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ss6_inheritance/bai_tap/point_moveablepoint/MoveablePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/exercise1/Controller/ResizeableController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/exercise1/Model/Cricle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/exercise1/Model/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/exercise1/Model/Resizeable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/exercise1/Model/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/exercise1/Model/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/exercise2/Colorable/IColorable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/exercise2/Colorable/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/exercise2/Colorable/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/exercise2/Colorable/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code/TennisGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss6_inheritance/bai_tap/point_moveablepoint/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss6_inheritance/bai_tap/point_moveablepoint/Point.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,13 +52,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MainPoint3D">
-    <configuration name="MainCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss5_access_modifier.bai_tap.circle.MainCircle" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="CharacterCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3_array_method.bai_tap.CharacterCount" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss5_access_modifier.bai_tap.circle.*" />
+          <option name="PATTERN" value="ss3_array_method.bai_tap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -51,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPoint3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss6_inheritance.bai_tap.point2d_point3d.MainPoint3D" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss7.exercise2.Colorable.Main" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss6_inheritance.bai_tap.point2d_point3d.*" />
+          <option name="PATTERN" value="ss7.exercise2.Colorable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss5_access_modifier.bai_tap.student.MainStudent" />
+    <configuration name="MainFan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss4_class_object.bai_tap.fan.MainFan" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss5_access_modifier.bai_tap.student.*" />
+          <option name="PATTERN" value="ss4_class_object.bai_tap.fan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Point2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss6_inheritance.bai_tap.point2d_point3d.Point2D" />
+    <configuration name="MainPointMoveablePoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss6_inheritance.bai_tap.point_moveablepoint.MainPointMoveablePoint" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss6_inheritance.bai_tap.point2d_point3d.*" />
+          <option name="PATTERN" value="ss6_inheritance.bai_tap.point_moveablepoint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TotalDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3.TotalDiagonal" />
+    <configuration name="ResizeableController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss7.exercise1.Controller.ResizeableController" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss3.*" />
+          <option name="PATTERN" value="ss7.exercise1.Controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainPoint3D" />
-        <item itemvalue="Application.Point2D" />
-        <item itemvalue="Application.TotalDiagonal" />
-        <item itemvalue="Application.MainStudent" />
-        <item itemvalue="Application.MainCircle" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ResizeableController" />
+        <item itemvalue="Application.MainPointMoveablePoint" />
+        <item itemvalue="Application.CharacterCount" />
+        <item itemvalue="Application.MainFan" />
       </list>
     </recent_temporary>
   </component>
