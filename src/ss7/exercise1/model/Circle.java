@@ -1,12 +1,12 @@
-package ss7.exercise1.Model;
+package ss7.exercise1.model;
 
-public class Cricle extends Shape{
+public class Circle extends Shape{
     private double radius = 1.0;
 
-    public Cricle() {
+    public Circle() {
     }
 
-    public Cricle(String color, boolean filled, double radius) {
+    public Circle(String color, boolean filled, double radius) {
         super(color, filled);
         this.radius = radius;
     }
@@ -28,10 +28,10 @@ public class Cricle extends Shape{
 
     @Override
     public String toString() {
-        return "Cricle{" +
+        return "Circle{" +
                 "color="+getColor()+
-                "filled="+isFilled()+
-                "radius=" + radius +
+                ", filled="+isFilled()+
+                ", radius=" + radius +
                 '}';
     }
 

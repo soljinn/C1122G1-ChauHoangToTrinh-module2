@@ -1,4 +1,4 @@
-package ss7.exercise1.Model;
+package ss7.exercise1.model;
 
 public class Rectangle extends Shape{
     private double with = 1.0;
@@ -43,8 +43,8 @@ public class Rectangle extends Shape{
     public String toString() {
         return "Rectangle{" +
                 "color="+getColor()+
-                "filled="+isFilled()+
-                "with=" + with +
+                ", filled="+isFilled()+
+                ", with=" + with +
                 ", height=" + height +
                 '}';
     }

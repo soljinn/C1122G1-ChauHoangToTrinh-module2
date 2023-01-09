@@ -1,4 +1,4 @@
-package ss7.exercise1.Model;
+package ss7.exercise1.model;
 
 public class Square extends Shape{
     private double side = 1.0;
@@ -29,8 +29,8 @@ public class Square extends Shape{
     public String toString() {
         return "Square{" +
                 "color="+getColor()+
-                "filled"+isFilled()+
-                "side=" + side +
+                ", filled"+isFilled()+
+                ", side=" + side +
                 '}';
     }
 

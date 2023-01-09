@@ -1,4 +1,4 @@
-package ss7.exercise1.Model;
+package ss7.exercise1.model;
 
 public abstract class Shape implements Resizeable{
     private String color = "blue";
