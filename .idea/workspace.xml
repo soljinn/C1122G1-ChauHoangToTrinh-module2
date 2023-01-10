@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77a3eb09-07ea-4c0a-b489-592a13d96c8a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_list/bai_tap/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_list/bai_tap/MyListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercise1/Controller/ResizeableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercise1/controller/ResizeableController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercise1/Model/Cricle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercise1/Model/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercise1/model/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercise1/Model/Resizeable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercise1/model/Resizeable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercise1/Model/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercise1/model/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercise1/Model/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercise1/model/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercise2/Colorable/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercise2/Colorable/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

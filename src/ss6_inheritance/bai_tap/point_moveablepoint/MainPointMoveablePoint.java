@@ -7,22 +7,22 @@ public class MainPointMoveablePoint {
         Point point = new Point();
         System.out.println(point);
 
-        point = new Point(1,2);
+        point = new Point(1, 2);
 
         System.out.println("Change the value of x and y: ");
-        point.setXY(3,4);
+        point.setXY(3, 4);
         System.out.println(Arrays.toString(point.getXY()));
 
         MoveablePoint moveablePoint = new MoveablePoint();
 
-        moveablePoint = new MoveablePoint(11,12);
+        moveablePoint = new MoveablePoint(11, 12);
         System.out.println(moveablePoint);
 
-        moveablePoint = new MoveablePoint(5,6,7,8);
+        moveablePoint = new MoveablePoint(5, 6, 7, 8);
         System.out.println(moveablePoint);
 
         System.out.println("Change the value of x and y: ");
-        moveablePoint.setXY(9,10);
+        moveablePoint.setXY(9, 10);
         System.out.println(moveablePoint);
 
         moveablePoint.move();

@@ -1,9 +1,11 @@
 package ss6_inheritance.bai_tap.circle_cylinder;
 
 public class Cylinder extends Circle {
-private double height = 5;
+    private double height = 5;
+
     public Cylinder() {
     }
+
     public Cylinder(double height) {
         this.height = height;
     }
@@ -20,16 +22,17 @@ private double height = 5;
     public void setHeight(double height) {
         this.height = height;
     }
-    public double getVolume(){
-        return getArea()*getHeight();
+
+    public double getVolume() {
+        return getArea() * getHeight();
     }
 
     @Override
     public String toString() {
         return "Cylinder{" +
                 "height=" + getHeight() +
-                ", area="+ getArea() +
-                ", volume=" + getVolume()+
+                ", area=" + getArea() +
+                ", volume=" + getVolume() +
                 '}';
     }
 }

@@ -8,12 +8,12 @@ public class MoveablePoint extends Point {
     }
 
     public MoveablePoint(float x, float y, float xSpeed, float ySpeed) {
-        super(x,y);
+        super(x, y);
         this.xSpeed = xSpeed;
         this.ySpeed = ySpeed;
     }
 
-    public MoveablePoint(float xSpeed,float ySpeed) {
+    public MoveablePoint(float xSpeed, float ySpeed) {
         this.xSpeed = xSpeed;
         this.ySpeed = ySpeed;
     }
@@ -33,6 +33,7 @@ public class MoveablePoint extends Point {
     public void setySpeed(float ySpeed) {
         this.ySpeed = ySpeed;
     }
+
     public void setSpeed(float xSpeed, float ySpeed) {
         setxSpeed(xSpeed);
         setySpeed(ySpeed);
@@ -43,15 +44,16 @@ public class MoveablePoint extends Point {
     }
 
     public MoveablePoint move() {
-        setX(getX()+xSpeed);
-        setY(getY()+ySpeed);
+        setX(getX() + xSpeed);
+        setY(getY() + ySpeed);
         return this;
     }
+
     @Override
     public String toString() {
         return "MoveablePoint{" +
-                "x="+getX()+
-                "y="+getY()+
+                "x=" + getX() +
+                "y=" + getY() +
                 "xSpeed=" + getxSpeed() +
                 ", ySpeed=" + getySpeed() +
                 '}';

@@ -12,7 +12,7 @@ public class MainPoint2D {
         float x = scanner.nextFloat();
         System.out.println("y= ");
         float y = scanner.nextFloat();
-        Point2D point2D1 = new Point2D(x,y);
+        Point2D point2D1 = new Point2D(x, y);
         System.out.println(point2D1);
 
         Scanner scanner2 = new Scanner(System.in);

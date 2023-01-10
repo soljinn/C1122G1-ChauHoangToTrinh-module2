@@ -28,8 +28,8 @@ public class Circle {
         this.color = color;
     }
 
-    public double getArea(){
-        return getRadius()*getRadius()*Math.PI;
+    public double getArea() {
+        return getRadius() * getRadius() * Math.PI;
     }
 
     @Override

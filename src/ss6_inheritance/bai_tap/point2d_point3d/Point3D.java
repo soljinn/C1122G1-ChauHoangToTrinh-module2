@@ -18,10 +18,12 @@ public class Point3D extends Point2D {
     public void setZ(float z) {
         this.z = z;
     }
-    public float [] getXYZ(){
-        return new float[]{getX(),getY(),getZ()};
+
+    public float[] getXYZ() {
+        return new float[]{getX(), getY(), getZ()};
     }
-    public void setXYZ(float x, float y,float z){
+
+    public void setXYZ(float x, float y, float z) {
         this.getX();
         this.getY();
         this.getZ();
