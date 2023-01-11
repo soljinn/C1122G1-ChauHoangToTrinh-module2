@@ -1,13 +1,13 @@
 package ss7.exercise2.Colorable;
 
-public class Shape implements IColorable{
+public abstract class Shape1 {
     private String color = "green";
     private boolean filled = true;
 
-    public Shape() {
+    public Shape1() {
     }
 
-    public Shape(String color, boolean filled) {
+    public Shape1(String color, boolean filled) {
         this.color = color;
         this.filled = filled;
     }
@@ -30,14 +30,12 @@ public class Shape implements IColorable{
 
     @Override
     public String toString() {
-        return "A Shape with color of "
-                + getColor()
-                + " and "
-                + (isFilled() ? "filled" : "not filled");
+        return "Shape{" +
+                "color='" + getColor() + '\'' +
+                ", filled=" + isFilled() +
+                '}';
     }
 
-    @Override
     public void howToColor() {
-
     }
 }

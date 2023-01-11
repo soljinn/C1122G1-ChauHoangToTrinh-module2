@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77a3eb09-07ea-4c0a-b489-592a13d96c8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_list/bai_tap/array_list/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_list/bai_tap/array_list/MyListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_list/bai_tap/linked_list/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/exercise2/Colorable/Circle1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/exercise2/Colorable/Rectangle1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/exercise2/Colorable/Shape1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/exercise2/Colorable/Square1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10_dsa_list/bai_tap/MyList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10_dsa_list/bai_tap/MyListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercise1/model/Resizeable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercise1/model/IResizeable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercise1/model/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercise1/model/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss7/exercise2/Colorable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercise2/Colorable/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss7/exercise2/Colorable/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss7/exercise2/Colorable/Square.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +47,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MyListTest$Staff">
-    <configuration name="CharacterCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3_array_method.bai_tap.CharacterCount" />
-      <module name="module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss3_array_method.bai_tap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReverseArray">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss7.exercise2.Colorable.Main" />
       <module name="module2" />
@@ -111,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_stack_queue.bai_tap.ReverseArray" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss11_stack_queue.bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyListTest$Staff" />
+        <item itemvalue="Application.ReverseArray" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MyListTest$Staff" />
         <item itemvalue="Application.ResizeableController" />
         <item itemvalue="Application.MainPointMoveablePoint" />
-        <item itemvalue="Application.CharacterCount" />
       </list>
     </recent_temporary>
   </component>

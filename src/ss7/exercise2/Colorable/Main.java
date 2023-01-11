@@ -4,14 +4,16 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        Shape [] squares = new Square[3];
-        squares[0] = new Square("blue",true,5);
-        squares[1] = new Square("green",false,6);
-        squares[2] = new Square("yellow",true,7);
-        System.out.println(Arrays.toString(squares));
-        System.out.println("Có phải colorable hay không");
-        squares[0].howToColor();
-        squares[1].howToColor();
-        squares[2].howToColor();
+        Shape1[] shape1s = new Shape1[3];
+        shape1s[0] = new Circle1(5);
+        shape1s[1] = new Rectangle1(2, 5);
+        shape1s[2] = new Square1(4);
+
+        for (Shape1 shape : shape1s) {
+            System.out.println(shape);
+            if (shape instanceof Square1) { // instanceof dùng để kiểm tra đối tượng có phải là kiểu dữ liệu cụ thể không.
+                ((Square1) shape).howToColor();
+            }
+        }
     }
 }
