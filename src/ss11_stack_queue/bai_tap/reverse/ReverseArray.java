@@ -1,4 +1,4 @@
-package ss11_stack_queue.bai_tap;
+package ss11_stack_queue.bai_tap.reverse;
 
 import java.util.Scanner;
 import java.util.Stack;
