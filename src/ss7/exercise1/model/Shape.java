@@ -1,6 +1,6 @@
 package ss7.exercise1.model;
 
-public abstract class Shape implements Resizeable{
+public abstract class Shape implements IResizeable {
     private String color = "blue";
     private boolean filled = true;
 
