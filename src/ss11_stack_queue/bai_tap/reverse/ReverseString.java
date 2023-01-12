@@ -11,12 +11,12 @@ public class ReverseString {
         System.out.println("Input string: ");
         String string1 = scanner.nextLine();
         String[] stringArr = string1.split("");
-        for (int i = 0; i< stringArr.length; i++){
+        for (int i = 0; i < stringArr.length; i++) {
             string.push(stringArr[i]);
         }
         String strings = " ";
-        for (int i = 0; i<stringArr.length; i++){
-            strings+=string.pop();
+        for (int i = 0; i < stringArr.length; i++) {
+            strings += string.pop();
         }
         System.out.println(strings);
     }

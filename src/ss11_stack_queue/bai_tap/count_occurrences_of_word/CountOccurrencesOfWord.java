@@ -27,7 +27,7 @@ public class CountOccurrencesOfWord {
         Set<String> stringSet = map.keySet();
         System.out.println("List word");
         for (String key : stringSet) {
-            System.out.println(key +" : "+ map.get(key));
+            System.out.println(key + " : " + map.get(key));
         }
     }
 }

@@ -5,110 +5,84 @@ import java.util.Arrays;
 //import static com.sun.tools.javac.util.ArrayUtils.ensureCapacity;
 
 public class MyList<E> {
-    private int size = 0;
+    private int size = 0; // so luong phan tu trong mang
     private static final int DEFAULT_CAPACITY = 10;
-    private Object elements[];
+    public Object element[];
 
-    // khởi tạo mảng ban đầu với lenght mặt định
     public MyList() {
-        elements = new Object[DEFAULT_CAPACITY];
+        element = new Object[DEFAULT_CAPACITY];
     }
 
-    // khởi tạo mảng với chiều dài truyền vào
     public MyList(int capacity) {
         if (capacity >= 0) {
-            elements = new Object[capacity];
+            element = new Object[capacity];
         } else {
-            throw new IllegalArgumentException("Illegal capacity: " + size);
+            throw new IllegalArgumentException("capacity" + capacity);
         }
     }
 
-    // thêm phần tử mới vào mảng
-    public void add(int index, E element) {
-        if (index > size || index < 0) {
-            throw new IllegalArgumentException("Illegal capacity: " + index);
-        } else if (size == elements.length) {
-            ensureCapacity();
-        }
-        if (elements[index] == null) {
-            elements[index] = element;
-            size++;
-        } else {
-            for (int i = size + 1; i >= index; i--) {
-                elements[i] = elements[i - 1];
-            }
-            elements[index] = element;
-            size++;
-        }
-    }
-
-    private void ensureCapacity() {
-    }
-
-    // thêm xong rồi xóa
-    public E remove(int index) {
-        if (index < 0 || index >= size) {
-            throw new IllegalArgumentException("Illegal capacity: " + index);
-        }
-        for (int i = index; i < size - 1; i++) {
-            elements[i] = elements[i + 1];
-        }
-        elements[size - 1] = null;
-        size--;
-        return (E) elements[index];
-    }
-
-
-    // trả về tổng số phần tử có trong mảng
     public int size() {
         return this.size;
     }
 
-    // kiểm tra phần tử có tồn tại trong mảng hay không
-    public boolean contains(E element) {
-        return this.indexOf(element) >= 0;
+    public void clear() {
+        size = 0;
+        for (int i = 0; i < element.length; i++) {
+            element[i] = null;
+        }
     }
 
-    public int indexOf(E element) {
-        for (int i = 0; i < size; i++) {
-            if (elements[i].equals(element)) {
-                return i;
-            }
+    public boolean add(E elements) {
+        if (element.length == size) {
+            this.ensureCapacity(2);
         }
-        return -1;
-    }
-
-    // trả về phần tử ở vị trí index
-    public E get(int index) {
-        if (index >= size || index < 0) {
-            throw new IndexOutOfBoundsException("Illegal capacity: " + index);
-        }
-        return (E) elements[index];
-    }
-
-    // thêm phần tử vào cuối mảng
-    public boolean add(E element) {
-        if (elements.length == size) {
-            this.ensureCapacity();
-        }
-        elements[size] = element;
+        element[size] = elements;
         size++;
         return true;
     }
 
-    // sao chép mảng ra mảng mới
-    public MyList<E> clone() {
-        MyList<E> newArrayClone = new MyList<>();
-        newArrayClone.elements = Arrays.copyOf(this.elements, this.size);
-        newArrayClone.size = this.size;
-        return newArrayClone;
+    public void add(E elements, int index) {
+        if (index > element.length) {
+            throw new IllegalArgumentException("index:  " + index);
+        } else if (element.length == size) {
+            this.ensureCapacity(2);
+        }
+
+        if (element[index] == null) {
+            element[index] = elements;
+        } else {
+            for (int i = 0; i >= index; i--) {
+                element[i] = element[i - 1];
+            }
+            element[index] = elements;
+            size++;
+        }
+
     }
 
-    // xóa mảng
-    public void clear() {
-        size = 0;
-        for (int i = 0; i < elements.length; i++) {
-            elements[i] = null;
+    // phuong thuc tang kich thuoc ham
+    public void ensureCapacity(int minCapacity) {
+        if (minCapacity >= 0) {
+            int newSize = this.element.length + minCapacity;
+            element = Arrays.copyOf(element, newSize);
+        } else {
+            throw new IllegalArgumentException("minCapacity: " + minCapacity);
         }
     }
+
+
+    public E get(int index) {
+        return (E) element[index];
+    }
+
+    public int indexOf(E elements) {
+        int index = -1;
+        for (int i = 0; i < size; i++) {
+            if (this.element[i].equals(elements)) {
+                return i;
+            }
+        }
+        return index;
+    }
+
 }
