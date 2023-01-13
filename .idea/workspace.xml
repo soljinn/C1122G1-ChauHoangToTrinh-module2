@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77a3eb09-07ea-4c0a-b489-592a13d96c8a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Binary_conversion/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/binary_conversion/Conversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Check_bracket/Bracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/check_bracket/Bracket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Check_palindrome/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/check_palindrome/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Streamlined_data_organization/PersonnelMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/streamlined_data_organization/PersonnelMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Streamlined_data_organization/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/streamlined_data_organization/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Streamlined_data_organization/file.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/streamlined_data_organization/file.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Streamlined_data_organization/personnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/streamlined_data_organization/personnel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/check_bracket/Bracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/check_bracket/Bracket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

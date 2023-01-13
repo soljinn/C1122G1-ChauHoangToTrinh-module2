@@ -6,19 +6,19 @@ import java.util.Stack;
 public class Bracket {
     // trả về true false.
     public static boolean checkBracket(String string){
-        Stack<Character> bStack = new Stack<>();
+        Stack<Character> bracketStack = new Stack<>();
         for (int i = 0; i < string.length(); i++) {
             char index = string.charAt(i);
             if (index == '('){
-                bStack.push(index);
+                bracketStack.push(index);
             }else if (index == ')'){
-                if (bStack.isEmpty()){
+                if (bracketStack.isEmpty()){
                     return false;
                 }
-                bStack.pop();
+                bracketStack.pop();
             }
         }
-        return bStack.isEmpty();
+        return bracketStack.isEmpty();
     }
 
     public static void main(String[] args) {
