@@ -1,4 +1,4 @@
-package ss11_stack_queue.bai_tap.Check_bracket;
+package ss11_stack_queue.bai_tap.check_bracket;
 
 import java.util.Scanner;
 import java.util.Stack;

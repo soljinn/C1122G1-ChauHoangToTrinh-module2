@@ -1,4 +1,4 @@
-package ss11_stack_queue.bai_tap.Check_palindrome;
+package ss11_stack_queue.bai_tap.check_palindrome;
 
 import java.util.*;
 

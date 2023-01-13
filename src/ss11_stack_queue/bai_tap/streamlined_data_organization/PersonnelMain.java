@@ -1,4 +1,4 @@
-package ss11_stack_queue.bai_tap.Streamlined_data_organization;
+package ss11_stack_queue.bai_tap.streamlined_data_organization;
 
 import java.time.LocalDate;
 import java.util.*;

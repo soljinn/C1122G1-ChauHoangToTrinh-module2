@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77a3eb09-07ea-4c0a-b489-592a13d96c8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Binary_conversion/Conversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Check_bracket/Bracket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Check_palindrome/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Streamlined_data_organization/PersonnelMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Streamlined_data_organization/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Streamlined_data_organization/file.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Streamlined_data_organization/personnel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/circular_linked_list/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Binary_conversion/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/binary_conversion/Conversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Check_bracket/Bracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/check_bracket/Bracket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Check_palindrome/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/check_palindrome/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Streamlined_data_organization/PersonnelMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/streamlined_data_organization/PersonnelMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Streamlined_data_organization/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/streamlined_data_organization/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Streamlined_data_organization/file.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/streamlined_data_organization/file.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/Streamlined_data_organization/personnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/streamlined_data_organization/personnel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +39,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Application.Solution">
+}]]></component>
+  <component name="RunManager" selected="Application.Palindrome">
     <configuration name="Bracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_stack_queue.bai_tap.Check_bracket.Bracket" />
+      <option name="MAIN_CLASS_NAME" value="ss11_stack_queue.bai_tap.check_bracket.Bracket" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_stack_queue.bai_tap.Check_bracket.*" />
+          <option name="PATTERN" value="ss11_stack_queue.bai_tap.check_bracket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,11 +61,11 @@
       </method>
     </configuration>
     <configuration name="Conversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_stack_queue.bai_tap.Binary_conversion.Conversion" />
+      <option name="MAIN_CLASS_NAME" value="ss11_stack_queue.bai_tap.binary_conversion.Conversion" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_stack_queue.bai_tap.Binary_conversion.*" />
+          <option name="PATTERN" value="ss11_stack_queue.bai_tap.binary_conversion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,11 +74,11 @@
       </method>
     </configuration>
     <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_stack_queue.bai_tap.Check_palindrome.Palindrome" />
+      <option name="MAIN_CLASS_NAME" value="ss11_stack_queue.bai_tap.check_palindrome.Palindrome" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_stack_queue.bai_tap.Check_palindrome.*" />
+          <option name="PATTERN" value="ss11_stack_queue.bai_tap.check_palindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,9 +114,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Bracket" />
-        <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.Conversion" />
         <item itemvalue="Application.TestMyList" />
       </list>
