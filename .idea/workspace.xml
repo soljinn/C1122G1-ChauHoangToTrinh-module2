@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77a3eb09-07ea-4c0a-b489-592a13d96c8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/BookingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/FacilityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/FuramaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/PromotionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/models/EmployeeModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/models/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/services/IEmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/services/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Controller/ProductManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Service/iplm/PriceComparatorDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Service/iplm/PriceComparatorReduction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Service/iplm/ProductServiceIplm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/View/MainView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss13/exercise1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss13/exercise2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss13/exercise3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/streamlined_data_organization/PersonnelMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss11_stack_queue/bai_tap/streamlined_data_organization/PersonnelMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +43,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MainView">
-    <configuration name="FuramaControllers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="caseStudy.furamaResort.controllers.FuramaControllers" />
+  <component name="RunManager" selected="Application.ss13.exercise3.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss13.exercise1.Main" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="caseStudy.furamaResort.controllers.*" />
+          <option name="PATTERN" value="ss13.exercise1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,19 +70,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_stack_queue.bai_tap.check_palindrome.Palindrome" />
-      <module name="module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss11_stack_queue.bai_tap.check_palindrome.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PersonnelMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss11_stack_queue.bai_tap.streamlined_data_organization.PersonnelMain" />
       <module name="module2" />
@@ -111,12 +83,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_stack_queue.bai_tap.circular_linked_list.Solution" />
+    <configuration name="ss13.exercise2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss13.exercise2.Main" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_stack_queue.bai_tap.circular_linked_list.*" />
+          <option name="PATTERN" value="ss13.exercise2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ss13.exercise3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss13.exercise3.Main" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss13.exercise3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ss13.exercise3.Main" />
+        <item itemvalue="Application.ss13.exercise2.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainView" />
         <item itemvalue="Application.PersonnelMain" />
-        <item itemvalue="Application.FuramaControllers" />
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
