@@ -13,6 +13,5 @@ public class PersonnelMain {
         personnelList.add(new personnel("Trinh","NU", LocalDate.of(1997,05,31), "Tester"));
         personnelList.add(new personnel("Trinh","NU", LocalDate.of(1997,05,31), "Tester"));
         personnelList.add(new personnel("Trinh","NU", LocalDate.of(1997,05,31), "Tester"));
-        //Collections.sort(personnelList,);
     }
 }
