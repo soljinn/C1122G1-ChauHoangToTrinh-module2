@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77a3eb09-07ea-4c0a-b489-592a13d96c8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss14/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss14/SelectionInsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Controller/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Controller/ProductManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Service/IProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Service/iplm/PriceComparatorDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Service/iplm/PriceComparatorDiscount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Service/iplm/ProductServiceIplm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Service/iplm/ProductServiceIplm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss13/exercise1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13/exercise1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss13/exercise2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13/exercise2/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="77a3eb09-07ea-4c0a-b489-592a13d96c8a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

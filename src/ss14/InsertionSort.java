@@ -11,7 +11,7 @@ public class InsertionSort {
         int[] array = new int[size];
 
         for (int i = 0; i < array.length; i++) {
-            System.out.println("enter the th element: " + (i + 1));
+            System.out.println("enter the element: " + (i + 1));
             array[i] = scanner.nextInt();
         }
         System.out.println("the original array is: " + Arrays.toString(array));
