@@ -14,7 +14,7 @@ public class InsertionSort {
             System.out.println("enter the th element: " + (i + 1));
             array[i] = scanner.nextInt();
         }
-        System.out.println("the original array is: "+ Arrays.toString(array));
+        System.out.println("the original array is: " + Arrays.toString(array));
         insertionSortByStep(array);
     }
 
@@ -29,10 +29,8 @@ public class InsertionSort {
                 pos--;
                 System.out.println("Move element : " + array[pos]);
             }
-                array[pos] = valueToInsert;
-            }
-        System.out.println("Array after sorted: "+ Arrays.toString(array));
+            array[pos] = valueToInsert;
         }
+        System.out.println("Array after sorted: " + Arrays.toString(array));
     }
-
-// cài đặt thuật toán
+}
