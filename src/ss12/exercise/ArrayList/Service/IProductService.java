@@ -8,9 +8,14 @@ import java.util.Scanner;
 
 public interface IProductService {
     void add();
+
     void edit();
+
     void remove();
+
     void display();
+
     void search();
+
     void sort();
 }

@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77a3eb09-07ea-4c0a-b489-592a13d96c8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss13/exercise1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13/exercise2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13/exercise3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14/SelectionInsert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Controller/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Controller/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Service/iplm/PriceComparatorDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Service/iplm/PriceComparatorDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Service/iplm/ProductServiceIplm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/exercise/ArrayList/Service/iplm/ProductServiceIplm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13/exercise1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13/exercise1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13/exercise2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13/exercise2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +48,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ss13.exercise3.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss13.exercise1.Main" />
+  <component name="RunManager" selected="Application.SelectionInsert">
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss14.InsertionSort" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss13.exercise1.*" />
+          <option name="PATTERN" value="ss14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonnelMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_stack_queue.bai_tap.streamlined_data_organization.PersonnelMain" />
+    <configuration name="SelectionInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss14.SelectionInsert" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_stack_queue.bai_tap.streamlined_data_organization.*" />
+          <option name="PATTERN" value="ss14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +116,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionInsert" />
+        <item itemvalue="Application.MainView" />
         <item itemvalue="Application.ss13.exercise3.Main" />
         <item itemvalue="Application.ss13.exercise2.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainView" />
-        <item itemvalue="Application.PersonnelMain" />
       </list>
     </recent_temporary>
   </component>

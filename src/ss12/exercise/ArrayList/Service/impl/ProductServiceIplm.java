@@ -1,4 +1,4 @@
-package ss12.exercise.ArrayList.Service.iplm;
+package ss12.exercise.ArrayList.Service.impl;
 
 import ss12.exercise.ArrayList.Model.Product;
 import ss12.exercise.ArrayList.Service.IProductService;
@@ -8,8 +8,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ProductServiceIplm implements IProductService {
-    private static  Scanner scanner = new Scanner(System.in);
-    private static  List<Product> productList = new ArrayList<>();
+    private static Scanner scanner = new Scanner(System.in);
+    private static List<Product> productList = new ArrayList<>();
 
     @Override
     public void add() {

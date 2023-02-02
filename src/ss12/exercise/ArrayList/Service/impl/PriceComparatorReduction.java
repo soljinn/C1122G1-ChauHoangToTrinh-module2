@@ -1,4 +1,4 @@
-package ss12.exercise.ArrayList.Service.iplm;
+package ss12.exercise.ArrayList.Service.impl;
 
 import ss12.exercise.ArrayList.Model.Product;
 

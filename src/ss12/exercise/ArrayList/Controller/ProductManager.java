@@ -1,29 +1,29 @@
 package ss12.exercise.ArrayList.Controller;
 
 import ss12.exercise.ArrayList.Service.IProductService;
-import ss12.exercise.ArrayList.Service.iplm.ProductServiceIplm;
+import ss12.exercise.ArrayList.Service.impl.ProductServiceIplm;
 
 import java.util.Scanner;
 
 public class ProductManager {
-    public static void menuProduct(){
+    public static void menuProduct() {
         IProductService iProductService = new ProductServiceIplm();
         Scanner scanner = new Scanner(System.in);
         do {
-            System.out.println("Product Management:\n"+
-                    "1. Add management\n"+
-                    "2. Edit management\n"+
-                    "3. Remove management\n"+
-                    "4. Display management\n"+
-                    "5. Search management\n"+
-                    "6. Sort management\n"+
+            System.out.println("Product Management:\n" +
+                    "1. Add management\n" +
+                    "2. Edit management\n" +
+                    "3. Remove management\n" +
+                    "4. Display management\n" +
+                    "5. Search management\n" +
+                    "6. Sort management\n" +
                     "7. Exit");
             System.out.println("Enter selection: ");
             int choice = Integer.parseInt(scanner.nextLine());
-            switch (choice){
+            switch (choice) {
                 case 1:
-                   iProductService.add();
-                   break;
+                    iProductService.add();
+                    break;
                 case 2:
                     iProductService.edit();
                     break;
@@ -42,6 +42,6 @@ public class ProductManager {
                 case 7:
                     System.exit(1);
             }
-        }while (true);
+        } while (true);
     }
 }
