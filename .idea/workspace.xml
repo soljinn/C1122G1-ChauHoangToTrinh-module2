@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77a3eb09-07ea-4c0a-b489-592a13d96c8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss15/MyException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss15/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss15/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss15/MyException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss15/TriangleEdgesCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss15/TriangleEdgesCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss15/TriangleEdgesException.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ss15" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.TriangleEdgesCheck">
     <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss14.InsertionSort" />
