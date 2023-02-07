@@ -13,10 +13,11 @@ public class FileCopy {
         List<String> stringList = new ArrayList<>();
         String line;
         int sum =0;
+        BufferedReader bufferedReader = null;
         try{
             File file = new File(path);
             FileReader fileReader = new FileReader(file);
-            BufferedReader bufferedReader = new BufferedReader(fileReader);
+            bufferedReader = new BufferedReader(fileReader);
             while ((line = bufferedReader.readLine()) != null){
                 sum += line.length();
                 stringList.add(line);
@@ -24,6 +25,17 @@ public class FileCopy {
             bufferedReader.close();
         } catch (IOException e){
             e.printStackTrace();
+        }finally {
+            try {
+                bufferedReader.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+            try {
+                bufferedReader.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
         System.out.println("The number of characters in the file is: " + sum);
         return stringList;
