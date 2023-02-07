@@ -33,7 +33,7 @@ public class ProductService implements IProductService {
         }
         System.out.println("Enter product name: ");
         String name = scanner.nextLine();
-        System.out.println("enter the company: ");
+        System.out.println("Enter the company: ");
         String manufacturer = scanner.nextLine();
         int price;
         while (true) {
