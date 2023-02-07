@@ -1,12 +1,17 @@
-package ss17.controller;
+package ss17.product_manager.controller;
 
-import ss17.service.IProductService;
-import ss17.service.ProductService;
+import ss17.product_manager.model.ProductManage;
+import ss17.product_manager.service.IProductService;
+import ss17.product_manager.service.ProductService;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class ProductController {
-    public static void menuProductManage(){
+    public static void menuProductManage() {
+        List<ProductManage> productManageList = new ArrayList<>();
+        productManageList.add(new ProductManage());
         Scanner scanner = new Scanner(System.in);
         IProductService iProductService = new ProductService();
         do {
@@ -19,10 +24,10 @@ public class ProductController {
             try {
                 System.out.println("Enter your choice: ");
                 choice = Integer.parseInt(scanner.nextLine());
-            } catch (NumberFormatException e){
+            } catch (NumberFormatException e) {
                 System.out.println("Enter number please!");
             }
-            switch (choice){
+            switch (choice) {
                 case 1:
                     iProductService.add();
                     break;

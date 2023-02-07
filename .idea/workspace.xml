@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77a3eb09-07ea-4c0a-b489-592a13d96c8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss17/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17/model/ProductManage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17/utils/ReadWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/binary_file/CopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/binary_file/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/binary_file/source.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/binary_file/target.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/product_manager/data/product.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/product_manager/exception/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/product_manager/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/product_manager/utils/ReadWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/product_manager/view/MainProductManage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss16/CopyFile/FileCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss16/CopyFile/FileCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/product_manager/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/data/product.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/data/product.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/exception/MyException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/model/ProductManage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/product_manager/model/ProductManage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/product_manager/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/utils/ReadWriteFile.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,19 +49,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ss15" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TriangleEdgesCheck">
+  <component name="RunManager" selected="Application.MainProductManage">
     <configuration name="FileCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss16.CopyFile.FileCopy" />
       <module name="module2" />
@@ -91,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss14.SelectionInsert" />
+    <configuration name="MainProductManage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss17.product_manager.view.MainProductManage" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss14.*" />
+          <option name="PATTERN" value="ss17.product_manager.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainProductManage" />
         <item itemvalue="Application.TriangleEdgesCheck" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.FileCopy" />
         <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.SelectionInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -156,11 +169,6 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ss16/CopyFile/FileCopy.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

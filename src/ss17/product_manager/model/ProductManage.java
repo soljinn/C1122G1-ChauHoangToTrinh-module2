@@ -1,9 +1,11 @@
-package ss17.model;
+package ss17.product_manager.model;
 
-public class ProductManage {
+import java.io.Serializable;
+
+public class ProductManage implements Serializable {
     private int id;
-    private  String name;
-    private  String manufacturer;
+    private String name;
+    private String manufacturer;
     private double price;
 
     public ProductManage() {
