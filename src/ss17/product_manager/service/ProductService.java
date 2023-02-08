@@ -1,6 +1,6 @@
 package ss17.product_manager.service;
 
-import ss17.product_manager.exception.MyException;
+import ss17.product_manager.exception.DuplicateIDException;
 import ss17.product_manager.model.ProductManage;
 import ss17.product_manager.utils.ReadWriteFile;
 
@@ -21,13 +21,13 @@ public class ProductService implements IProductService {
                 id = Integer.parseInt(scanner.nextLine());
                 for (ProductManage product : productManageList) {
                     if (product.getId() == id) {
-                        throw new MyException("Duplicate id please re-enter!");
+                        throw new DuplicateIDException("Duplicate id please re-enter!");
                     }
                 }
                 break;
             } catch (NumberFormatException e) {
                 System.out.println("Enter number!");
-            } catch (MyException e) {
+            } catch (DuplicateIDException e) {
                 e.getMessage();
             }
         }

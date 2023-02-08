@@ -36,12 +36,12 @@ public class CopyFile {
             File sourceFile = new File(sourcePath);
             File targetFile = new File(targetPath);
             if (targetFile.exists()) {
-                throw new MyException("File đích đã tồn tại, hãy kiểm tra lại!");
+                throw new ExistsException("File đích đã tồn tại, hãy kiểm tra lại!");
             }
             copyFileUsingStream(sourceFile, targetFile);
         } catch (IOException e) {
             e.printStackTrace();
-        } catch (MyException e) {
+        } catch (ExistsException e) {
             System.out.println(e.getMessage());
         }
     }
