@@ -11,7 +11,7 @@ public class Booking {
     Scanner scanner = new Scanner(System.in);
     IBookingService iBookingService = new BookingServiceImpl();
     int choice = 0;
-    public void displayFacilityController(){
+    public void displayBookingController(){
         do {
             try {
                 System.out.println("Booking Management\n" +

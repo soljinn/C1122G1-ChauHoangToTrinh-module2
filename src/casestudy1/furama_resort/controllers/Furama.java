@@ -25,6 +25,14 @@ public class Furama {
                     employee.displayEmployeeController();
                     break;
                 case 2:
+                    customer.displayCustomerManager();
+                    break;
+                case 3:
+                    facility.displayFacilityController();
+                    break;
+                case 4:
+                    booking.displayBookingController();
+                    break;
             }
         } while (true);
     }

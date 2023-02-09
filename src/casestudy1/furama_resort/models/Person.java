@@ -2,7 +2,7 @@ package casestudy1.furama_resort.models;
 
 public abstract class Person {
     private String name;
-    private String dateOfBirth;
+    private int dateOfBirth;
     private  String gender;
     private  String id;
     private String phoneNumber;
@@ -11,7 +11,7 @@ public abstract class Person {
     public Person() {
     }
 
-    public Person(String name, String dateOfBirth, String gender, String id, String phoneNumber, String email) {
+    public Person(String name, int dateOfBirth, String gender, String id, String phoneNumber, String email) {
         this.name = name;
         this.dateOfBirth = dateOfBirth;
         this.gender = gender;
@@ -28,11 +28,11 @@ public abstract class Person {
         this.name = name;
     }
 
-    public String getDateOfBirth() {
+    public int getDateOfBirth() {
         return dateOfBirth;
     }
 
-    public void setDateOfBirth(String dateOfBirth) {
+    public void setDateOfBirth(int dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
 
@@ -78,5 +78,9 @@ public abstract class Person {
                 ", phoneNumber='" + phoneNumber + '\'' +
                 ", email='" + email + '\'' +
                 '}';
+    }
+    public String convertLine(){
+        String COMMA = ",";
+        return this.name + COMMA + this.dateOfBirth + COMMA + this.gender + COMMA + this.id + COMMA + this.phoneNumber + COMMA + this.email;
     }
 }

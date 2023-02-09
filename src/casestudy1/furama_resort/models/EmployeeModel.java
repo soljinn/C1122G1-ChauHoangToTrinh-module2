@@ -1,7 +1,7 @@
 package casestudy1.furama_resort.models;
 
 public class EmployeeModel extends Person {
-    private String idEmployee;
+    private int idEmployee;
     private String levelEmployee;
     private String positionEmployee;
     private String salaryEmployee;
@@ -9,7 +9,9 @@ public class EmployeeModel extends Person {
     public EmployeeModel() {
     }
 
-    public EmployeeModel(String name, String dateOfBirth, String gender, String id, String phoneNumber, String email, String idEmployee, String levelEmployee, String positionEmployee, String salaryEmployee) {
+    public EmployeeModel(String name, int dateOfBirth, String gender, String id,
+                         String phoneNumber, String email, int idEmployee, String levelEmployee,
+                         String positionEmployee, String salaryEmployee) {
         super(name, dateOfBirth, gender, id, phoneNumber, email);
         this.idEmployee = idEmployee;
         this.levelEmployee = levelEmployee;
@@ -17,11 +19,11 @@ public class EmployeeModel extends Person {
         this.salaryEmployee = salaryEmployee;
     }
 
-    public String getIdEmployee() {
+    public int getIdEmployee() {
         return idEmployee;
     }
 
-    public void setIdEmployee(String idEmployee) {
+    public void setIdEmployee(int idEmployee) {
         this.idEmployee = idEmployee;
     }
 
@@ -51,11 +53,15 @@ public class EmployeeModel extends Person {
 
     @Override
     public String toString() {
-        return "EmployeeModel{" +
+        return "EmployeeModel{" + super.toString() +
                 "idEmployee='" + idEmployee + '\'' +
                 ", levelEmployee='" + levelEmployee + '\'' +
                 ", positionEmployee='" + positionEmployee + '\'' +
                 ", salaryEmployee='" + salaryEmployee + '\'' +
                 '}';
+    }
+    public String convertLine(){
+        String COMMA = ",";
+        return super.convertLine()+COMMA + this.idEmployee + COMMA + levelEmployee + COMMA + positionEmployee + COMMA + this.salaryEmployee;
     }
 }

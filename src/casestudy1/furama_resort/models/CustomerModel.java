@@ -1,6 +1,6 @@
 package casestudy1.furama_resort.models;
 
-public class CustomerModel {
+public class CustomerModel extends Person{
     private int customerID;
     private String typeCustomer;
     private String address;
@@ -8,7 +8,10 @@ public class CustomerModel {
     public CustomerModel() {
     }
 
-    public CustomerModel(int customerID, String typeCustomer, String address) {
+    public CustomerModel(String name, int dateOfBirth, String gender, String id,
+                         String phoneNumber, String email, int customerID,
+                         String typeCustomer, String address) {
+        super(name, dateOfBirth, gender, id, phoneNumber, email);
         this.customerID = customerID;
         this.typeCustomer = typeCustomer;
         this.address = address;
@@ -40,10 +43,14 @@ public class CustomerModel {
 
     @Override
     public String toString() {
-        return "CustomerModel{" +
+        return "CustomerModel{" + super.toString() +
                 "customerID=" + customerID +
                 ", typeCustomer='" + typeCustomer + '\'' +
                 ", address='" + address + '\'' +
                 '}';
+    }
+    public String convertLine(){
+        String COMMA = ",";
+        return super.convertLine() + COMMA + this.customerID + COMMA + this.typeCustomer + COMMA + this.address;
     }
 }

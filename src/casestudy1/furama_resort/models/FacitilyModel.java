@@ -1,6 +1,6 @@
 package casestudy1.furama_resort.models;
 
-public class FacitilyModel {
+public abstract class FacitilyModel {
     private int facitilyID;
     private String name;
     private String area;
@@ -78,5 +78,9 @@ public class FacitilyModel {
                 ", amount=" + amount +
                 ", rentalType='" + rentalType + '\'' +
                 '}';
+    }
+    public String convertLine(){
+        String COMMA = ",";
+        return this.facitilyID+ COMMA + this.name + COMMA + this.area + COMMA + this.price + COMMA + this.amount + COMMA + this.rentalType;
     }
 }

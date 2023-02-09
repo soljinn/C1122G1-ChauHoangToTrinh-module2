@@ -5,27 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77a3eb09-07ea-4c0a-b489-592a13d96c8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/models/BookingModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/models/CustomerModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/models/FacitilyModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/models/RoomModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/models/VillaModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/services/IBookingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/services/ICustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/services/IFacilityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/services/impl/BookingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/services/impl/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/services/impl/FacilityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/data/employee.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/utils/ReadWriteFile/ReadWriteCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/utils/ReadWriteFile/ReadWriteEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/views/MenuMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/EmployeeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/FacilityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/Facility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/FuramaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/Furama.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/PromotionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/Promotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/Furama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/controllers/Furama.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy1/furama_resort/models/CustomerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/models/CustomerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy1/furama_resort/models/EmployeeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/models/EmployeeModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy1/furama_resort/models/FacitilyModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/models/FacitilyModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casestudy1/furama_resort/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/models/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/casestudy1/furama_resort/services/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casestudy1/furama_resort/services/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss19/ValidNumberPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss19/ValidNumberPhone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +59,13 @@
       <recent name="ss15" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidNumberPhone">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss16.ReadFile.Main" />
+  <component name="RunManager" selected="Application.MenuMain">
+    <configuration name="MainProductManage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss17.product_manager.view.MainProductManage" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss16.ReadFile.*" />
+          <option name="PATTERN" value="ss17.product_manager.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainProductManage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss17.product_manager.view.MainProductManage" />
+    <configuration name="MenuMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="casestudy1.furama_resort.views.MenuMain" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss17.product_manager.view.*" />
+          <option name="PATTERN" value="casestudy1.furama_resort.views.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MenuMain" />
         <item itemvalue="Application.ValidNumberPhone" />
         <item itemvalue="Application.ValidateNameClass" />
         <item itemvalue="Application.MainProductManage" />
         <item itemvalue="Application.TriangleEdgesCheck" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
