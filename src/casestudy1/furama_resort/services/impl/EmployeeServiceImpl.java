@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EmployeeServiceImpl implements IEmployeeService {
-    public static List<EmployeeModel> employeeModelList = new ArrayList<>();
     @Override
     public void displayEmployee() {
 

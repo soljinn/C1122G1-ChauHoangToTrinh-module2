@@ -17,16 +17,18 @@ public class ValidNumberPhone {
         valid3 = numPhone.matches(REGEX_VINA);
         valid4 = numPhone.matches(REGEX_VIETNAMOBILE);
         valid5 = numPhone.matches(REGEX_GMOBILE);
-        if (valid1 || valid2 || valid3 || valid4 || valid5 == true) {
+        if (valid1 || valid2 || valid3 || valid4 || valid5) {
             System.out.println("Phone number valid ");
-        } else System.out.println("Phone number invalid");
+        } else {
+            System.out.println("Phone number invalid");
+        }
     }
 
-    private static final String REGEX_VIETTEL = "^((\\+|84)|0)+(3)+(2|3|4|5|6|7|8|9)+\\d{7}$";
-    private static final String REGEX_MOBI = "^((\\+|84)|0)+(7)+(0|6|7|8|9)+\\d{7}$";
-    private static final String REGEX_VINA = "^((\\+|84)|0)+(8)+(1|2|3|4|5)+\\d{7}$";
-    private static final String REGEX_VIETNAMOBILE = "^((\\+|84)|0)+(5)+(6|8)+\\d{7}$";
-    private static final String REGEX_GMOBILE = "^((\\+|84)|0)+(59)+\\d{7}$";
+    private static final String REGEX_VIETTEL = "^((\\+|84)|0)(3)(2|3|4|5|6|7|8|9)\\d{7}$";
+    private static final String REGEX_MOBI = "^((\\+|84)|0)(7)(0|6|7|8|9)\\d{7}$";
+    private static final String REGEX_VINA = "^((\\+|84)|0)(8)(1|2|3|4|5)\\d{7}$";
+    private static final String REGEX_VIETNAMOBILE = "^((\\+|84)|0)(5)(6|8)\\d{7}$";
+    private static final String REGEX_GMOBILE = "^((\\+|84)|0)(59)\\d{7}$";
 
 }
 

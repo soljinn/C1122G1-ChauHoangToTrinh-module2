@@ -2,14 +2,14 @@ package casestudy1.furama_resort.controllers;
 
 import java.util.Scanner;
 
-public class FuramaController {
+public class Furama {
     public void displayMainMenu(){
         Scanner scanner = new Scanner(System.in);
-        EmployeeController employeeController = new EmployeeController();
-        CustomerController customerController = new CustomerController();
-        FacilityController facilityController = new FacilityController();
-        BookingController bookingController = new BookingController();
-        PromotionController promotionController = new PromotionController();
+        Employee employee = new Employee();
+        Customer customer = new Customer();
+        Facility facility = new Facility();
+        Booking booking = new Booking();
+        Promotion promotion = new Promotion();
         int choice = 0;
         do {
             System.out.println("1. Employee Management\n" +
@@ -22,7 +22,9 @@ public class FuramaController {
             choice = Integer.parseInt(scanner.nextLine());
             switch (choice){
                 case 1:
-
+                    employee.displayEmployeeController();
+                    break;
+                case 2:
             }
         } while (true);
     }
