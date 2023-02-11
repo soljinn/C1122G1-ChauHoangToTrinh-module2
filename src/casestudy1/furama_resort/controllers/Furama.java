@@ -33,6 +33,8 @@ public class Furama {
                 case 4:
                     booking.displayBookingController();
                     break;
+                case 5:
+
             }
         } while (true);
     }

@@ -2,20 +2,20 @@ package casestudy1.furama_resort.models;
 
 public class VillaModel extends FacitilyModel{
     private String room;
-    private String poolArea;
-    private String numberOfFloors;
+    private Double poolArea;
+    private int numberOfFloors;
 
     public VillaModel() {
     }
 
-    public VillaModel(String room, String poolArea, String numberOfFloors) {
+    public VillaModel(String room, double poolArea, int numberOfFloors) {
         this.room = room;
         this.poolArea = poolArea;
         this.numberOfFloors = numberOfFloors;
     }
 
-    public VillaModel(int ficitilyID, String name, String area, Double price, int amount, String rentalType, String room, String poolArea, String numberOfFloors) {
-        super(ficitilyID, name, area, price, amount, rentalType);
+    public VillaModel(String facitilyID, String name, Double area, Double price, int amount, String rentalType, String room,double poolArea, int numberOfFloors) {
+        super(facitilyID, name, area, price, amount, rentalType);
         this.room = room;
         this.poolArea = poolArea;
         this.numberOfFloors = numberOfFloors;
@@ -29,28 +29,32 @@ public class VillaModel extends FacitilyModel{
         this.room = room;
     }
 
-    public String getPoolArea() {
+    public double getPoolArea() {
         return poolArea;
     }
 
-    public void setPoolArea(String poolArea) {
+    public void setPoolArea(double poolArea) {
         this.poolArea = poolArea;
     }
 
-    public String getNumberOfFloors() {
+    public int getNumberOfFloors() {
         return numberOfFloors;
     }
 
-    public void setNumberOfFloors(String numberOfFloors) {
+    public void setNumberOfFloors(int numberOfFloors) {
         this.numberOfFloors = numberOfFloors;
     }
 
     @Override
     public String toString() {
-        return "VillaModel{" +
+        return "VillaModel{" + super.toString() +
                 "room='" + room + '\'' +
                 ", poolArea='" + poolArea + '\'' +
                 ", numberOfFloors='" + numberOfFloors + '\'' +
                 '}';
+    }
+    public String convertLine(){
+        String COMMA = ",";
+        return super.convertLine()+COMMA+this.room+COMMA+this.poolArea+COMMA+this.numberOfFloors;
     }
 }

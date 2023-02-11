@@ -10,8 +10,8 @@ public class RoomModel extends FacitilyModel {
         this.freeService = freeService;
     }
 
-    public RoomModel(int ficitilyID, String name, String area, Double price, int amount, String rentalType, String freeService) {
-        super(ficitilyID, name, area, price, amount, rentalType);
+    public RoomModel(String facitilyID, String name, Double area, Double price, int amount, String rentalType, String freeService) {
+        super(facitilyID, name, area, price, amount, rentalType);
         this.freeService = freeService;
     }
 
@@ -25,8 +25,12 @@ public class RoomModel extends FacitilyModel {
 
     @Override
     public String toString() {
-        return "RoomModel{" +
+        return "RoomModel{" + super.toString() +
                 "freeService='" + freeService + '\'' +
                 '}';
+    }
+    public String convertLine(){
+        String COMMA = ",";
+        return super.convertLine() + COMMA + this.freeService;
     }
 }

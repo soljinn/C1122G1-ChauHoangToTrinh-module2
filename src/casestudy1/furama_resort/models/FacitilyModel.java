@@ -1,9 +1,9 @@
 package casestudy1.furama_resort.models;
 
 public abstract class FacitilyModel {
-    private int facitilyID;
+    private String facitilyID;
     private String name;
-    private String area;
+    private Double area;
     private Double price;
     private int amount;
     private String rentalType;
@@ -11,8 +11,8 @@ public abstract class FacitilyModel {
     public FacitilyModel() {
     }
 
-    public FacitilyModel(int ficitilyID, String name, String area, Double price, int amount, String rentalType) {
-        this.facitilyID = ficitilyID;
+    public FacitilyModel(String facitilyID, String name, Double area, Double price, int amount, String rentalType) {
+        this.facitilyID = facitilyID;
         this.name = name;
         this.area = area;
         this.price = price;
@@ -20,11 +20,11 @@ public abstract class FacitilyModel {
         this.rentalType = rentalType;
     }
 
-    public int getFicitilyID() {
+    public String getFicitilyID() {
         return facitilyID;
     }
 
-    public void setFicitilyID(int ficitilyID) {
+    public void setFicitilyID(String ficitilyID) {
         this.facitilyID = ficitilyID;
     }
 
@@ -36,11 +36,11 @@ public abstract class FacitilyModel {
         this.name = name;
     }
 
-    public String getArea() {
+    public Double getArea() {
         return area;
     }
 
-    public void setArea(String area) {
+    public void setArea(Double area) {
         this.area = area;
     }
 

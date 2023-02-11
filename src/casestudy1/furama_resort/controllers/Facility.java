@@ -10,8 +10,8 @@ import java.util.Scanner;
 public class Facility {
     Scanner scanner = new Scanner(System.in);
     IFacilityService iFacilityService = new FacilityServiceImpl();
-    int choice = 0;
     public void displayFacilityController(){
+        int choice;
         do {
             try {
                 System.out.println("Facility Management\n" +
@@ -20,13 +20,13 @@ public class Facility {
                         "3.Display list facility maintenance\n" +
                         "4.Return main menu");
                 System.out.println("Please enter options!");
-                choice = scanner.nextInt();
+                choice = Integer.parseInt(scanner.nextLine());
                 switch (choice){
                     case 1:
                         iFacilityService.displayFacility();
                         break;
                     case 2:
-                        iFacilityService.addFacility();
+                        addFacility();
                         break;
                     case 3:
                         iFacilityService.displayFacilityMaintenance();
@@ -40,5 +40,28 @@ public class Facility {
                 System.out.println("Please enter number!");
             }
         } while (true);
+    }
+    private void addFacility(){
+        System.out.println("1. Add villa\n" +
+                "2. Add room\n" +
+                "3. Back\n" +
+                "4. Return menu.");
+        int choice = Integer.parseInt(scanner.nextLine());
+        switch (choice){
+            case 1:
+                iFacilityService.addVilla();
+                break;
+            case 2:
+                iFacilityService.addRoom();
+                break;
+            case 3:
+                System.exit(0);
+                break;
+            case 4:
+                return;
+            default:
+
+                System.err.println("Your selection has no please re-enter!");
+        }
     }
 }
