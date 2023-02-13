@@ -38,5 +38,4 @@ public class Regex {
             }
         }while (true);
     }
-
 }

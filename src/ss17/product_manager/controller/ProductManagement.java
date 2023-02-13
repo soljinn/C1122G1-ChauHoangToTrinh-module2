@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class ProductController {
+public class ProductManagement {
     public static void menuProductManage() {
         List<ProductManage> productManageList = new ArrayList<>();
         productManageList.add(new ProductManage());
