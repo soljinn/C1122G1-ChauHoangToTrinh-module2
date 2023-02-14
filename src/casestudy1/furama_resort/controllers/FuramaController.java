@@ -2,14 +2,14 @@ package casestudy1.furama_resort.controllers;
 
 import java.util.Scanner;
 
-public class Furama {
+public class FuramaController {
     public void displayMainMenu(){
         Scanner scanner = new Scanner(System.in);
-        Employee employee = new Employee();
-        Customer customer = new Customer();
-        Facility facility = new Facility();
-        Booking booking = new Booking();
-        Promotion promotion = new Promotion();
+        EmployeeController employee = new EmployeeController();
+        CustomerController customer = new CustomerController();
+        FacilityController facility = new FacilityController();
+        BookingController booking = new BookingController();
+        PromotionController promotion = new PromotionController();
         int choice = 0;
         do {
             System.out.println("1. Employee Management\n" +

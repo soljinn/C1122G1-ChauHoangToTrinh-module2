@@ -5,7 +5,7 @@ import casestudy1.furama_resort.services.impl.EmployeeServiceImpl;
 
 import java.util.Scanner;
 
-public class Employee {
+public class EmployeeController {
     Scanner scanner = new Scanner(System.in);
     IEmployeeService iEmployeeService = new EmployeeServiceImpl();
     int choice = 0;

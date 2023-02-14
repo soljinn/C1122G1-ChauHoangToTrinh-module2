@@ -1,13 +1,11 @@
 package casestudy1.furama_resort.controllers;
 
 import casestudy1.furama_resort.services.IBookingService;
-import casestudy1.furama_resort.services.IFacilityService;
 import casestudy1.furama_resort.services.impl.BookingServiceImpl;
-import casestudy1.furama_resort.services.impl.FacilityServiceImpl;
 
 import java.util.Scanner;
 
-public class Booking {
+public class BookingController {
     Scanner scanner = new Scanner(System.in);
     IBookingService iBookingService = new BookingServiceImpl();
     int choice = 0;

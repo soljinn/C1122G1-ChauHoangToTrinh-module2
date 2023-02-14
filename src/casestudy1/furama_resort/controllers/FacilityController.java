@@ -1,13 +1,11 @@
 package casestudy1.furama_resort.controllers;
 
-import casestudy1.furama_resort.services.IEmployeeService;
 import casestudy1.furama_resort.services.IFacilityService;
-import casestudy1.furama_resort.services.impl.EmployeeServiceImpl;
 import casestudy1.furama_resort.services.impl.FacilityServiceImpl;
 
 import java.util.Scanner;
 
-public class Facility {
+public class FacilityController {
     Scanner scanner = new Scanner(System.in);
     IFacilityService iFacilityService = new FacilityServiceImpl();
     public void displayFacilityController(){

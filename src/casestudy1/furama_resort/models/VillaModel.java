@@ -1,6 +1,6 @@
 package casestudy1.furama_resort.models;
 
-public class VillaModel extends FacitilyModel{
+public class VillaModel extends FacilityModel {
     private String room;
     private Double poolArea;
     private int numberOfFloors;

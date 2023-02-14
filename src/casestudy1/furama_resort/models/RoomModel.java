@@ -1,6 +1,6 @@
 package casestudy1.furama_resort.models;
 
-public class RoomModel extends FacitilyModel {
+public class RoomModel extends FacilityModel {
     private String freeService;
 
     public RoomModel() {

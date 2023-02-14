@@ -1,18 +1,18 @@
 package casestudy1.furama_resort.models;
 
-public abstract class FacitilyModel {
-    private String facitilyID;
+public abstract class FacilityModel {
+    private String facilityID;
     private String name;
     private Double area;
     private Double price;
     private int amount;
     private String rentalType;
 
-    public FacitilyModel() {
+    public FacilityModel() {
     }
 
-    public FacitilyModel(String facitilyID, String name, Double area, Double price, int amount, String rentalType) {
-        this.facitilyID = facitilyID;
+    public FacilityModel(String facitilyID, String name, Double area, Double price, int amount, String rentalType) {
+        this.facilityID = facitilyID;
         this.name = name;
         this.area = area;
         this.price = price;
@@ -21,11 +21,11 @@ public abstract class FacitilyModel {
     }
 
     public String getFicitilyID() {
-        return facitilyID;
+        return facilityID;
     }
 
     public void setFicitilyID(String ficitilyID) {
-        this.facitilyID = ficitilyID;
+        this.facilityID = ficitilyID;
     }
 
     public String getName() {
@@ -70,8 +70,8 @@ public abstract class FacitilyModel {
 
     @Override
     public String toString() {
-        return "FacitilyModel{" +
-                "facitilyID=" + facitilyID +
+        return "FacilityModel{" +
+                "facilityID=" + facilityID +
                 ", name='" + name + '\'' +
                 ", area='" + area + '\'' +
                 ", price=" + price +
@@ -81,6 +81,6 @@ public abstract class FacitilyModel {
     }
     public String convertLine(){
         String COMMA = ",";
-        return this.facitilyID+ COMMA + this.name + COMMA + this.area + COMMA + this.price + COMMA + this.amount + COMMA + this.rentalType;
+        return this.facilityID+ COMMA + this.name + COMMA + this.area + COMMA + this.price + COMMA + this.amount + COMMA + this.rentalType;
     }
 }

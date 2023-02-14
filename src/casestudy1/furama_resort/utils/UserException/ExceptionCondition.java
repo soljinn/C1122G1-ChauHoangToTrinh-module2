@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ExceptionCondition {
     final Scanner scanner = new Scanner(System.in);
     public double areaInfo(){
+
         double area;
         do {
             try{

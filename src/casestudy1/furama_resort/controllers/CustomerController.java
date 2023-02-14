@@ -5,7 +5,7 @@ import casestudy1.furama_resort.services.impl.CustomerServiceImpl;
 
 import java.util.Scanner;
 
-public class Customer {
+public class CustomerController {
     Scanner scanner = new Scanner(System.in);
     ICustomerService iCustomerService = new CustomerServiceImpl();
     int choice =0;

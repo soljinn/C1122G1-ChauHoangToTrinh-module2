@@ -1,7 +1,6 @@
 package casestudy1.furama_resort.services.impl;
 
-import casestudy1.furama_resort.controllers.Facility;
-import casestudy1.furama_resort.models.FacitilyModel;
+import casestudy1.furama_resort.models.FacilityModel;
 import casestudy1.furama_resort.models.RoomModel;
 import casestudy1.furama_resort.models.VillaModel;
 import casestudy1.furama_resort.services.IFacilityService;
@@ -11,7 +10,6 @@ import casestudy1.furama_resort.utils.Regex.Regex;
 import casestudy1.furama_resort.utils.UserException.ExceptionCondition;
 
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -29,24 +27,24 @@ public class FacilityServiceImpl implements IFacilityService {
     }
     @Override
     public void displayFacility() {
-        Map<FacitilyModel, Integer> readFileFacility = new LinkedHashMap<>();
+        Map<FacilityModel, Integer> readFileFacility = new LinkedHashMap<>();
         Map<RoomModel, Integer> roomModelIntegerMap = ReadWriteFileRoom.readFileRoom(PATH_ROOM);
         readFileFacility.putAll(roomModelIntegerMap);
         Map<VillaModel, Integer> villaModelIntegerMap = ReadWriteFileVilla.readFileVilla(PATH_VILLA);
         readFileFacility.putAll(villaModelIntegerMap);
-        for (Map.Entry<FacitilyModel, Integer> facilityMap : readFileFacility.entrySet()) {
+        for (Map.Entry<FacilityModel, Integer> facilityMap : readFileFacility.entrySet()) {
             System.out.println(facilityMap.getKey().toString() + " , " + facilityMap.getValue());
         }
     }
 
     @Override
     public void displayFacilityMaintenance() {
-        Map<FacitilyModel, Integer> readFileFacility = new LinkedHashMap<>();
+        Map<FacilityModel, Integer> readFileFacility = new LinkedHashMap<>();
         Map<RoomModel, Integer> roomModelIntegerMap = ReadWriteFileRoom.readFileRoom(PATH_ROOM);
         readFileFacility.putAll(roomModelIntegerMap);
         Map<VillaModel, Integer> villaModelIntegerMap = ReadWriteFileVilla.readFileVilla(PATH_VILLA);
         readFileFacility.putAll(villaModelIntegerMap);
-        for (Map.Entry<FacitilyModel, Integer> facilityMap : readFileFacility.entrySet()) {
+        for (Map.Entry<FacilityModel, Integer> facilityMap : readFileFacility.entrySet()) {
             if (facilityMap.getValue() >= 5){
                 System.out.println(facilityMap.getKey().toString()+ " , "+facilityMap.getValue());
             }
