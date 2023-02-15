@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class FacilityServiceImpl implements IFacilityService {
     Scanner scanner = new Scanner(System.in);
     private final String PATH_ROOM = "D:\\Trinh\\CodeGym\\module2\\src\\casestudy1\\furama_resort\\data\\room.csv";
-    private final String PATH_VILLA = "D:\\Trinh\\CodeGym\\module2\\src\\casestudy1\\furama_resort\\data\\villa.csv";
+    public static final String PATH_VILLA = "D:\\Trinh\\CodeGym\\module2\\src\\casestudy1\\furama_resort\\data\\villa.csv";
     private Regex regex = new Regex();
     private ExceptionCondition exceptionCondition = new ExceptionCondition();
     public void writeFileRoom(Map<RoomModel, Integer> roomModelIntegerMap){

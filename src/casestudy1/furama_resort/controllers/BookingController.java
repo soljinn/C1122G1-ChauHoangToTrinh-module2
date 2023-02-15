@@ -18,6 +18,18 @@ public class BookingController {
                         "3.Return main menu");
                 System.out.println("Please enter options!");
                 choice = scanner.nextInt();
+                switch (choice){
+                    case 1:
+                        iBookingService.addBooking();
+                        break;
+                    case 2:
+                        iBookingService.displayBooking();
+                        break;
+                    case 3:
+                        return;
+                    default:
+                        System.out.println("Your selection is not available. Please re-enter.");
+                }
             } catch (NumberFormatException e){
                 System.out.println("Please enter number!");
             }
