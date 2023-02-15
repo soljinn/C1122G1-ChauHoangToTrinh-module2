@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class CustomerServiceImpl implements ICustomerService {
     Scanner scanner = new Scanner(System.in);
-    final String PATH_CUSTOMER ="D:\\Trinh\\CodeGym\\module2\\src\\casestudy1\\furama_resort\\data\\customer.csv";
+    public static final String PATH_CUSTOMER ="D:\\Trinh\\CodeGym\\module2\\src\\casestudy1\\furama_resort\\data\\customer.csv";
     public void writeFile(List<CustomerModel> customerModels){
         ReadWriteCustomer.writeFile(PATH_CUSTOMER, customerModels);
     }

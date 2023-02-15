@@ -34,7 +34,10 @@ public class FuramaController {
                     booking.displayBookingController();
                     break;
                 case 5:
-
+                case 6:
+                    System.exit(0);
+                default:
+                    System.out.println("Your selection is not available. Please re-enter!");
             }
         } while (true);
     }
